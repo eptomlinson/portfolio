@@ -6,7 +6,7 @@ const Hero = () => {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h5>Hello, world! Full width Hero-unit header</h5>
+                        <h5>Erik Tomlinson: Full Stack Developer</h5>
 
                         <p><a href="#" class="btn btn-primary btn-large">Hire Me »</a></p>
                     </div>
