@@ -1,5 +1,6 @@
-
+import React from 'react';
 import './App.css';
+// import About from './pages/Home';
 import Hero from './components/Hero';
 import InfoSection from './components/InfoSection';
 import Navbar from './components/Navbar';
@@ -12,6 +13,6 @@ function App() {
     <InfoSection></InfoSection>
     </>
   );
-}
+};
 
 export default App;
