@@ -7,20 +7,21 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
-import Contact from './components/pages/Contact';
+import Contact from './components/Contact';
+import { HashRouter } from 'react-router-dom'
 
 function App() {
   return (
     <>
       <Hero></Hero>
       <Navbar></Navbar>
-        <Router>
+        <HashRouter basename='/portfolio'>
           <Switch>
             <Route path="/portfolio" component={InfoSection} exact/>
             <Route path="/portfolio/projects" component={Portfolio} exact/>
             <Route path="/portfolio/contact" component={Contact} exact/>
           </Switch>
-        </Router>
+        </HashRouter>
       <Footer></Footer>
     </>
   );

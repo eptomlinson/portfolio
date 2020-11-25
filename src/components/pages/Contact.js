@@ -1,14 +1,14 @@
-import React from "react";
-import Navbar from './About';
+// import React from "react";
+// import Navbar from './About';
 
-const Contact = () => {
+// const Contact = () => {
 
-    return (
-        <div className="infoContainer">
+//     return (
+//         <div className="infoContainer">
 
 
-        </div>
-    )
-};
+//         </div>
+//     )
+// };
 
-export default Contact;
+// export default Contact;
