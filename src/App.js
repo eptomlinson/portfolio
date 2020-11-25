@@ -16,7 +16,7 @@ function App() {
       <Navbar></Navbar>
         <Router>
           <Switch>
-            <Route path="/portfolio/home" component={InfoSection} exact/>
+            <Route path="/portfolio" component={InfoSection} exact/>
             <Route path="/portfolio/projects" component={Portfolio} exact/>
             <Route path="/portfolio/contact" component={Contact} exact/>
           </Switch>
