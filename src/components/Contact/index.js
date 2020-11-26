@@ -9,7 +9,7 @@ const Contact = () => {
                         <div className = "textWrapper">
                         <div className = "heading">
                             <h1>Please feel free to check out my GitHub:</h1>
-                            <h1>https://github.com/eptomlinson</h1>
+                            <a className="github" href="https://github.com/eptomlinson">https://github.com/eptomlinson</a>
 
                         </div>
                         </div>
