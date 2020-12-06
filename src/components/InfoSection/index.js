@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const InfoSection = () => {
     return (
@@ -26,4 +26,4 @@ const InfoSection = () => {
     );
 };
 
-export default InfoSection
+export default InfoSection;

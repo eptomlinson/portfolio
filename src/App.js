@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import About from './pages/Home';
 import Hero from './components/Hero';
 import InfoSection from './components/InfoSection';
 import Navbar from './components/Navbar';
@@ -8,7 +7,7 @@ import Footer from './components/Footer';
 import { Route, Link } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import { HashRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <Hero></Hero>
       <Navbar></Navbar>
         <HashRouter basename='/'>
-          {/* <Link to='projects'>Projects</Link> */}
             <Route path="/" component={InfoSection} exact/>
             <Route path="/projects" component={Portfolio} />
             <Route path="/contact" component={Contact} />

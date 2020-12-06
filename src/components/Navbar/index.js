@@ -1,5 +1,4 @@
-import React from 'react'
-// import Contact from './pages/Contact';
+import React from 'react';
 
 const Navbar = () => {
     return (
